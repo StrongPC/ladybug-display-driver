@@ -15,8 +15,9 @@ sudo apt-get install logisim
 ![Pins connection guide](https://github.com/prp-e/ladybug-display-driver/blob/master/pinguide.png)
 
 ## How it works?
+### Animated Circuit
 
-![Schematics](https://github.com/prp-e/ladybug-display-driver/blob/master/LadyBugSevenSegmentDriver.png)
+![Animation](https://github.com/prp-e/ladybug-display-driver/blob/master/Animation.gif)
 
 ### Truth table
 
@@ -30,3 +31,5 @@ sudo apt-get install logisim
 | f   | ~Y ~Z + ~W X ~Y + X ~Z + W ~X + W Y          |
 | g   | ~X Y + Y ~Z + ~W X ~Y + W ~X + W Z           |
 
+### Schematics
+![Schematics](https://github.com/prp-e/ladybug-display-driver/blob/master/LadyBugSevenSegmentDriver.png)
