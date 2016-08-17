@@ -6,5 +6,21 @@ This is a project from [LadyBug Systems](http://ladybugsystems.ir), and this dev
 
 ![Schematics](https://github.com/prp-e/ladybug-display-driver/blob/master/LadyBugSevenSegmentDriver.png)
 
-| Pin | Function |
-|-----|:----------:|
+### Truth table
+
+| Pin |               Function                       |
+|-----|:--------------------------------------------:|
+| a   | ~X ~Z + ~W Y + ~W X Z + X Y + W ~X ~Y + W ~Z |
+|-----|:--------------------------------------------:|
+| b   | ~W ~X + ~W ~Y ~Z + ~X ~Z + ~W Y Z + W ~Y Z   |
+|-----|:--------------------------------------------:|
+| c   | ~W ~Y + ~W Z + ~Y Z + ~W X + W ~X            |
+|-----|:--------------------------------------------:|
+| d   | ~W ~X ~Z + ~X Y Z + X ~Y Z + X Y ~Z + W ~Y   |
+|-----|:--------------------------------------------:|
+| e   | ~X ~Z + Y ~Z + W Y + W X                     |
+|-----|:--------------------------------------------:|
+| f   | ~Y ~Z + ~W X ~Y + X ~Z + W ~X + W Y          |
+|-----|:--------------------------------------------:|
+| g   | ~X Y + Y ~Z + ~W X ~Y + W ~X + W Z           |
+|-----|:--------------------------------------------:|
