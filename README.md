@@ -10,7 +10,9 @@ You need _Logisim_ to open `LBSevSeg.circ` file. It's available in Ubuntu/Debian
 ```
 sudo apt-get install logisim
 ```
-Enjoy!
+### How to connect pins
+
+![Pins connection guide](https://github.com/prp-e/ladybug-display-driver/blob/master/pinguide.png)
 
 ## How it works?
 
